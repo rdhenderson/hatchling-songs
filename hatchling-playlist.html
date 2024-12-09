@@ -6,6 +6,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css"
     />
     <style>
+      /* Update to import style .css file from github instead of inline? */
       .audioPlayer {
         display: block;
         border-radius: 20px;
@@ -15,7 +16,6 @@
         display: block;
         margin: 0 0;
         font-size: 20px;
-        /* text-align: center;        */
       }
       .playListItem:before {
         content: "\f04b  ";
@@ -40,9 +40,10 @@
 
   <body>
     <div class="audioPlayer-label" id="now-playing">Select Song Below</div>
+    <!-- Update audio element to have source.src property automatically udpated to first song processed -->
     <audio class="audioPlayer" id="player" controls>
       <source
-        src="https://archive.org/download/calexico2006-12-02..flac16/calexico2006-12-02d1t02.mp3"
+        src="https://github.com/rdhenderson/hatchling-songs/raw/refs/heads/main/teachers/giebelZega/ye_toop_daram.mp3"
         type="audio/mpeg"
       />
       Your browser does not support the audio element.
@@ -53,14 +54,13 @@
     <button id="previous" onclick="playPrevious()">Previous</button>
 
     <script>
+      // Update to import .js file from github and store song list in html data tag?
       const _player = document.getElementById("player");
       const _playlist = document.getElementById("playlist");
       const _stop = document.getElementById("stop");
       const _label = document.getElementById("now-playing");
-      // const BASE_SONG_URL = 'https://github.com/rdhenderson/hatchling-songs/blob/main'
       const BASE_SONG_URL =
-        "https://github.com/rdhenderson/hatchling-songs/raw/refs/heads/main";
-
+        "https://github.com/rdhenderson/hatchling-songs/raw/refs/heads/main/teachers/giebelZega";
       const songList = [
         { title: "Ye Toop Daram", url: "ye_toop_daram.mp3" },
         {
@@ -94,7 +94,6 @@
         var ul = document.getElementById("playlist");
         var li = document.createElement("li");
         li.classList.add("playListItem");
-        // li.appendChild(document.createTextNode(title));
         const icon = document.createElement("i");
         icon.className = "fa-solid fa-download";
         const link = document.createElement("a");
@@ -102,7 +101,6 @@
         link.download = source.split("/").pop();
         link.appendChild(icon);
         li.innerText = `${title}`;
-        // li.innerText = `${icon} ${file}`;
         li.setAttribute("data-src", source); // added line
         ul.appendChild(li);
       }
