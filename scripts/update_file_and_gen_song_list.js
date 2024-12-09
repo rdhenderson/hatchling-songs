@@ -6,9 +6,8 @@ function generateSongArray(dir) {
   const songs = files
     .filter((file) => !file.endsWith(".json"))
     .map((file) => {
-      const url = file.replace(/_/g, " ");
-      const [title] = url.split(".");
-      return { title, url };
+      const [title] = url.replace(/_/g, " ").split(".");
+      return { title, url: file };
     });
   return songs;
 }
