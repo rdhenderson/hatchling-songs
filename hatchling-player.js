@@ -16,7 +16,7 @@ window.manageAudioPlayer = (teacherName, songList) => {
     addSongToPlaylist(song.title, `${BASE_SONG_URL}/${song.url}`)
   );
   // Set default song src for player
-  _playerSource.src = `${BASE_SONG_URL}/${songList[2].url}`;
+  _playerSource.src = `${BASE_SONG_URL}/${songList[0].url}`;
   // preload the first song
   _player.load();
   // event listeners
