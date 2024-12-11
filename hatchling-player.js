@@ -10,7 +10,7 @@ window.manageAudioPlayer = (teacherName, songList) => {
   const _label = document.querySelector(`${containerLabel} #now-playing`);
   const _next = document.querySelector(`${containerLabel} #next`);
   const _prev = document.querySelector(`${containerLabel} #previous`);
-  const BASE_SONG_URL = `https://github.com/rdhenderson/hatchling-songs/raw/refs/heads/main/teachers/${teacherName}`;
+  const BASE_SONG_URL = `https://rdhenderson.github.io/hatchling-songs/teachers/${teacherName}`;
 
   songList.forEach((song) =>
     addSongToPlaylist(song.title, `${BASE_SONG_URL}/${song.url}`)
