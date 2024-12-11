@@ -1,0 +1,692 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css"
+    />
+    <!-- <link rel="stylesheet" href="hatchling-styles.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://rdhenderson.github.io/hatchling-songs/hatchling-styles.css"
+    />
+  </head>
+
+  <body>
+    <!-- <script src="./hatchling-player.js"></script> -->
+    <script src="https://rdhenderson.github.io/hatchling-songs/hatchling-player.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        window.manageAudioPlayer("giebelZega", [
+          {
+            title: "Al Tambor C",
+            url: "al_tambor_c.mp3",
+          },
+          {
+            title: "Ha Ha This Away for Ukulele",
+            url: "ha_ha_this_away_for_ukulele.mp3",
+          },
+          {
+            title: "I Say Goodbye",
+            url: "i_say_goodbye.mp3",
+          },
+          {
+            title: "Lets Get Our Music On",
+            url: "lets_get_our_music_on.mp3",
+          },
+          {
+            title: "Looby Loo in C",
+            url: "looby_loo_in_c.mp3",
+          },
+          {
+            title: "Pennsylvania Dreamin",
+            url: "pennsylvania_dreamin.mp3",
+          },
+          {
+            title: "Que Bueno A Verte I'm Happy To See You",
+            url: "que_bueno_a_verte_im_happy_to_see_you.mp3",
+          },
+          {
+            title: "Survivor Instrumental Key of D Minor",
+            url: "survivor_instrumental_key_of_d_minor.mp3",
+          },
+          {
+            title: "Ti Si Mi",
+            url: "ti_si_mi.mp3",
+          },
+          {
+            title: "What'd You Do in Music 2",
+            url: "whatd_you_do_in_music_2.0.mp3",
+          },
+          {
+            title: "Ye Toop Daram",
+            url: "ye_toop_daram.mp3",
+          },
+        ]);
+      });
+    </script>
+    <div id="giebelZega-player">
+      <div class="audioPlayer-label" id="now-playing">Select Song Below</div>
+      <!-- Update audio element to have source.src property automatically udpated to first song processed -->
+      <audio class="audioPlayer" id="player" controls>
+        <source id="player-source" src="" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <ul id="playlist"></ul>
+      <button id="stop">Play/Pause</button>
+      <button id="next">Next</button>
+      <button id="previous">Previous</button>
+    </div>
+    <div>
+      <script src="./hatchling-player.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          window.manageAudioPlayer("dietrich", [
+            {
+              title: "Al Tambor",
+              url: "Al_Tambor.m4a",
+            },
+            {
+              title: "Amazing",
+              url: "Amazing.m4a",
+            },
+            {
+              title: "Autumn Leaves (version #1)",
+              url: "Autumn_Leaves_(version_#1).m4a",
+            },
+            {
+              title: "Autumn Leaves (version #2)",
+              url: "Autumn_Leaves_(version_#2).m4a",
+            },
+            {
+              title: "Chile Ristras Scrub-A-Dub",
+              url: "Chile_Ristras_Scrub-A-Dub.m4a",
+            },
+            {
+              title: "Chop Chop",
+              url: "Chop_Chop.m4a",
+            },
+            {
+              title: "Clap Your Hands",
+              url: "Clap_Your_Hands.m4a",
+            },
+            {
+              title: "Colors of the Rainbow",
+              url: "Colors_of_the_Rainbow.m4a",
+            },
+            {
+              title: "Firecracker",
+              url: "Firecracker.m4a",
+            },
+            {
+              title: "Full Moonlight Dance",
+              url: "Full_Moonlight_Dance.m4a",
+            },
+            {
+              title: "Go & Stop",
+              url: "Go_&_Stop.m4a",
+            },
+            {
+              title: "Hello in My Heart",
+              url: "Hello_in_My_Heart.m4a",
+            },
+            {
+              title: "Hey Goodbye",
+              url: "Hey_Goodbye.m4a",
+            },
+            {
+              title: "Hippopotamus ",
+              url: "Hippopotamus_.m4a",
+            },
+            {
+              title: "Let's Go Fishing",
+              url: "Let's_Go_Fishing.m4a",
+            },
+            {
+              title: "Patito",
+              url: "Patito.m4a",
+            },
+            {
+              title: "Peek-A-Boo",
+              url: "Peek-A-Boo.m4a",
+            },
+            {
+              title: "Pennsylvania Dreamin",
+              url: "Pennsylvania_Dreamin.m4a",
+            },
+            {
+              title: "Popcorn",
+              url: "Popcorn.m4a",
+            },
+            {
+              title: "Rocketship",
+              url: "Rocketship.m4a",
+            },
+            {
+              title: "Shake Shake Shake",
+              url: "Shake_Shake_Shake.m4a",
+            },
+            {
+              title: "Snowflake",
+              url: "Snowflake.m4a",
+            },
+            {
+              title: "Somebody's Knocking",
+              url: "Somebody's_Knocking.m4a",
+            },
+            {
+              title: "Stirring Our Brew",
+              url: "Stirring_Our_Brew.m4a",
+            },
+            {
+              title: "The Birdies Fly Away",
+              url: "The_Birdies_Fly_Away.m4a",
+            },
+            {
+              title: "The Noble Duke of York",
+              url: "The_Noble_Duke_of_York.m4a",
+            },
+            {
+              title: "The Sled",
+              url: "The_Sled.m4a",
+            },
+            {
+              title: "The Wind in the Trees",
+              url: "The_Wind_in_the_Trees.m4a",
+            },
+            {
+              title: "Tiptoe",
+              url: "Tiptoe.m4a",
+            },
+            {
+              title: "Top of the World",
+              url: "Top_of_the_World.m4a",
+            },
+            {
+              title: "Walk Under Stars",
+              url: "Walk_Under_Stars.m4a",
+            },
+            {
+              title: "Walking to the Park",
+              url: "Walking_to_the_Park.m4a",
+            },
+            {
+              title: "We Are the Dinosaurs",
+              url: "We_Are_the_Dinosaurs.m4a",
+            },
+            {
+              title: "We're Planting a Seed",
+              url: "We're_Planting_a_Seed.m4a",
+            },
+            {
+              title: "Zoom Zoom Zoom Its Great to Take Your Time",
+              url: "Zoom_Zoom_Zoom_Its_Great_to_Take_Your_Time.m4a",
+            },
+          ]);
+        });
+      </script>
+      <div id="dietrich-player">
+        <div class="audioPlayer-label" id="now-playing">Select Song Below</div>
+        <!-- Update audio element to have source.src property automatically udpated to first song processed -->
+        <audio class="audioPlayer" id="player" controls>
+          <source id="player-source" src="" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <ul id="playlist"></ul>
+        <button id="stop">Play/Pause</button>
+        <button id="next">Next</button>
+        <button id="previous">Previous</button>
+      </div>
+    </div>
+
+    <div>
+      <script src="./hatchling-player.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          window.manageAudioPlayer("grantham", [
+            {
+              title: "Blowing In The Wind- Grantham",
+              url: "Blowing_In_The_Wind-_Grantham.mp3",
+            },
+            {
+              title: "Clap Clap Clap Your Hands- Grantham",
+              url: "Clap_Clap_Clap_Your_Hands-_Grantham.mp3",
+            },
+            {
+              title: "Donkeys Love Carrots - Grantham",
+              url: "Donkeys_Love_Carrots_-_Grantham.mp3",
+            },
+            {
+              title: "Firecracker- Grantham",
+              url: "Firecracker-_Grantham.mp3",
+            },
+            {
+              title: "Flying to the Moon - Grantham",
+              url: "Flying_to_the_Moon_-_Grantham.mp3",
+            },
+            {
+              title: "Go And Stop- Grantham",
+              url: "Go_And_Stop-_Grantham.mp3",
+            },
+            {
+              title: "Great Big Stars - Grantham",
+              url: "Great_Big_Stars_-_Grantham.mp3",
+            },
+            {
+              title: "Ha Ha Thisaway - Grantham",
+              url: "Ha_Ha_Thisaway_-_Grantham.mp3",
+            },
+            {
+              title: "Hello In My Heart - Grantham",
+              url: "Hello_In_My_Heart_-_Grantham.mp3",
+            },
+            {
+              title: "Here The Giants Come - Grantham",
+              url: "Here_The_Giants_Come_-_Grantham.mp3",
+            },
+            {
+              title: "I m So Glad To See You- Grantham",
+              url: "I_m_So_Glad_To_See_You-_Grantham.mp3",
+            },
+            {
+              title: "In The Tub- Grantham",
+              url: "In_The_Tub-_Grantham.mp3",
+            },
+            {
+              title: "It s Great To Take Your Time - Grantham",
+              url: "It_s_Great_To_Take_Your_Time_-_Grantham.mp3",
+            },
+            {
+              title: "Ocean Waves - Grantham",
+              url: "Ocean_Waves_-_Grantham.mp3",
+            },
+            {
+              title: "Popcorn- Grantham",
+              url: "Popcorn-_Grantham.mp3",
+            },
+            {
+              title: "Round and Round- - Grantham",
+              url: "Round_and_Round-_-_Grantham.mp3",
+            },
+            {
+              title: "Somebody s Knocking At Your Door- Grantham",
+              url: "Somebody_s_Knocking_At_Your_Door-_Grantham.mp3",
+            },
+            {
+              title: "Swinging - Grantham",
+              url: "Swinging_-_Grantham.mp3",
+            },
+            {
+              title: "Walking Through The Woods - Grantham",
+              url: "Walking_Through_The_Woods_-_Grantham.mp3",
+            },
+            {
+              title: "Way Down South- Grantham",
+              url: "Way_Down_South-_Grantham.mp3",
+            },
+            {
+              title: "Zoom Zoom Zoom - Grantham",
+              url: "Zoom_Zoom_Zoom_-_Grantham.mp3",
+            },
+          ]);
+        });
+      </script>
+      <div id="grantham-player">
+        <div class="audioPlayer-label" id="now-playing">Select Song Below</div>
+        <!-- Update audio element to have source.src property automatically udpated to first song processed -->
+        <audio class="audioPlayer" id="player" controls>
+          <source id="player-source" src="" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <ul id="playlist"></ul>
+        <button id="stop">Play/Pause</button>
+        <button id="next">Next</button>
+        <button id="previous">Previous</button>
+      </div>
+    </div>
+
+    <div>
+      <script src="./hatchling-player.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          window.manageAudioPlayer("hagee", [
+            {
+              title: "Chile-Ristras- In the Tub",
+              url: "Chile-Ristras-_In_the_Tub.m4a",
+            },
+            {
+              title: "Chop Chop",
+              url: "Chop_Chop.m4a",
+            },
+            {
+              title: "Dinosaur Diet",
+              url: "Dinosaur_Diet.m4a",
+            },
+            {
+              title: "Firecracker",
+              url: "Firecracker.m4a",
+            },
+            {
+              title: "Go and Stop",
+              url: "Go_and_Stop.m4a",
+            },
+            {
+              title: "Hello in my Heart",
+              url: "Hello_in_my_Heart.m4a",
+            },
+            {
+              title: "Hey Goodbye 2",
+              url: "Hey_Goodbye_2.m4a",
+            },
+            {
+              title: "Hippopotamus",
+              url: "Hippopotamus.m4a",
+            },
+            {
+              title: "I Know a Chicken",
+              url: "I_Know_a_Chicken.m4a",
+            },
+            {
+              title: "I'm So Glad to See You",
+              url: "I'm_So_Glad_to_See_You.m4a",
+            },
+            {
+              title: "Let's Get Our Music On",
+              url: "Let's_Get_Our_Music_On.m4a",
+            },
+            {
+              title: "Patito",
+              url: "Patito.m4a",
+            },
+            {
+              title: "Peek-a-boo",
+              url: "Peek-a-boo.m4a",
+            },
+            {
+              title: "Phoebe Crumpet",
+              url: "Phoebe_Crumpet.m4a",
+            },
+            {
+              title: "Planting a Seed",
+              url: "Planting_a_Seed.m4a",
+            },
+            {
+              title: "Play “Make Believe”",
+              url: "Play_“Make_Believe”.m4a",
+            },
+            {
+              title: "Popcorn",
+              url: "Popcorn.m4a",
+            },
+            {
+              title: "Roll the Ball Like This",
+              url: "Roll_the_Ball_Like_This.m4a",
+            },
+            {
+              title: "Snuggle Puppy",
+              url: "Snuggle_Puppy.m4a",
+            },
+            {
+              title: "Somebody’s Knocking at Your Door",
+              url: "Somebody’s_Knocking_at_Your_Door.m4a",
+            },
+            {
+              title: "The Birdies Fly Away",
+              url: "The_Birdies_Fly_Away.m4a",
+            },
+            {
+              title: "The Sled",
+              url: "The_Sled.m4a",
+            },
+            {
+              title: "To the Window",
+              url: "To_the_Window.m4a",
+            },
+            {
+              title: "Top of the World",
+              url: "Top_of_the_World.m4a",
+            },
+            {
+              title: "Walking Through the Woods",
+              url: "Walking_Through_the_Woods.m4a",
+            },
+            {
+              title: "We are the Dinosaurs",
+              url: "We_are_the_Dinosaurs.m4a",
+            },
+            {
+              title: "When I Woke Up Today",
+              url: "When_I_Woke_Up_Today.m4a",
+            },
+            {
+              title: "Zoom Zoom Zoom",
+              url: "Zoom_Zoom_Zoom.m4a",
+            },
+          ]);
+        });
+      </script>
+      <div id="hagee-player">
+        <div class="audioPlayer-label" id="now-playing">Select Song Below</div>
+        <!-- Update audio element to have source.src property automatically udpated to first song processed -->
+        <audio class="audioPlayer" id="player" controls>
+          <source id="player-source" src="" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <ul id="playlist"></ul>
+        <button id="stop">Play/Pause</button>
+        <button id="next">Next</button>
+        <button id="previous">Previous</button>
+      </div>
+    </div>
+
+    <div>
+      <script src="./hatchling-player.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          window.manageAudioPlayer("nixon", [
+            {
+              title: "All Around the Daffodils",
+              url: "All_Around_the_Daffodils_.mp3",
+            },
+            {
+              title: "Ant Dance",
+              url: "Ant_Dance.mp3",
+            },
+            {
+              title: "Clap Your Hands",
+              url: "Clap_Your_Hands_.mp3",
+            },
+            {
+              title: "Country Dance",
+              url: "Country_Dance_.mp3",
+            },
+            {
+              title: "Firecracker",
+              url: "Firecracker.mp3",
+            },
+            {
+              title: "Full Moonlight Dance",
+              url: "Full_Moonlight_Dance_.mp3",
+            },
+            {
+              title: "Great Big Stars",
+              url: "Great_Big_Stars_.mp3",
+            },
+            {
+              title: "Hairless",
+              url: "Hairless_.mp3",
+            },
+            {
+              title: "Hello in My Heart",
+              url: "Hello_in_My_Heart_.mp3",
+            },
+            {
+              title: "Here the Giants Come",
+              url: "Here_the_Giants_Come_.mp3",
+            },
+            {
+              title: "Hey Goodbye",
+              url: "Hey_Goodbye_.mp3",
+            },
+            {
+              title: "I Hear the Train",
+              url: "I_Hear_the_Train.mp3",
+            },
+            {
+              title: "I Just Go Slow",
+              url: "I_Just_Go_Slow_.mp3",
+            },
+            {
+              title: "I Went to the Zoo",
+              url: "I_Went_to_the_Zoo_.mp3",
+            },
+            {
+              title: "La La Lej",
+              url: "La_La_Lej.mp3",
+            },
+            {
+              title: "Let s Go Fishing",
+              url: "Let_s_Go_Fishing.mp3",
+            },
+            {
+              title: "Little Bubble in the Sea",
+              url: "Little_Bubble_in_the_Sea_.mp3",
+            },
+            {
+              title: "Long Ago a Dinosaur",
+              url: "Long_Ago_a_Dinosaur.mp3",
+            },
+            {
+              title: "My Pony Bill",
+              url: "My_Pony_Bill_.mp3",
+            },
+            {
+              title: "Ni Na No",
+              url: "Ni_Na_No_.mp3",
+            },
+            {
+              title: "Over in the Meadow",
+              url: "Over_in_the_Meadow_.mp3",
+            },
+            {
+              title: "Patito",
+              url: "Patito_.mp3",
+            },
+            {
+              title: "Phrygian Pass",
+              url: "Phrygian_Pass_.mp3",
+            },
+            {
+              title: "Planting Flowers",
+              url: "Planting_Flowers_.mp3",
+            },
+            {
+              title: "Ring the Bells",
+              url: "Ring_the_Bells_.mp3",
+            },
+            {
+              title: "Somebody s Knockng at My Door",
+              url: "Somebody_s_Knockng_at_My_Door_.mp3",
+            },
+            {
+              title: "Stirring Our Brew",
+              url: "Stirring_Our_Brew_.mp3",
+            },
+            {
+              title: "The Birdies Fly Away",
+              url: "The_Birdies_Fly_Away_.mp3",
+            },
+            {
+              title: "The Wind in the Trees",
+              url: "The_Wind_in_the_Trees_.mp3",
+            },
+            {
+              title: "We re Gonna Go",
+              url: "We_re_Gonna_Go.mp3",
+            },
+          ]);
+        });
+      </script>
+      <div id="nixon-player">
+        <div class="audioPlayer-label" id="now-playing">Select Song Below</div>
+        <!-- Update audio element to have source.src property automatically udpated to first song processed -->
+        <audio class="audioPlayer" id="player" controls>
+          <source id="player-source" src="" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <ul id="playlist"></ul>
+        <button id="stop">Play/Pause</button>
+        <button id="next">Next</button>
+        <button id="previous">Previous</button>
+      </div>
+    </div>
+    <div>
+      <script src="./hatchling-player.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          window.manageAudioPlayer("rafanelli", [
+            {
+              title: "Go and stop!",
+              url: "Go_and_stop!.m4a",
+            },
+            {
+              title: "Great big stars!",
+              url: "Great_big_stars!.m4a",
+            },
+            {
+              title: "Ha ha this away!",
+              url: "Ha_ha_this_away!.m4a",
+            },
+            {
+              title: "Hey goodbye!",
+              url: "Hey_goodbye!.m4a",
+            },
+            {
+              title: "I Hear the Train",
+              url: "I_Hear_the_Train.mp3",
+            },
+            {
+              title: "I Went to the Zoo ",
+              url: "I_Went_to_the_Zoo_.mp3",
+            },
+            {
+              title: "I have a hello in my heart!",
+              url: "I_have_a_hello_in_my_heart!.m4a",
+            },
+            {
+              title: "It's great to take your time!",
+              url: "It's_great_to_take_your_time!.m4a",
+            },
+            {
+              title: "Ni Na No ",
+              url: "Ni_Na_No_.mp3",
+            },
+            {
+              title: "Somebody s Knockng at My Door ",
+              url: "Somebody_s_Knockng_at_My_Door_.mp3",
+            },
+            {
+              title: "Stirring Our Brew ",
+              url: "Stirring_Our_Brew_.mp3",
+            },
+            {
+              title: "The goodbye song! (from bear in the big blue house)",
+              url: "The_goodbye_song!_(from_bear_in_the_big_blue_house).m4a",
+            },
+          ]);
+        });
+      </script>
+      <div id="rafanelli-player">
+        <div class="audioPlayer-label" id="now-playing">Select Song Below</div>
+        <!-- Update audio element to have source.src property automatically udpated to first song processed -->
+        <audio class="audioPlayer" id="player" controls>
+          <source id="player-source" src="" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <ul id="playlist"></ul>
+        <button id="stop">Play/Pause</button>
+        <button id="next">Next</button>
+        <button id="previous">Previous</button>
+      </div>
+    </div>
+  </body>
+</html>
