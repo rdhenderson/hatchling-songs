@@ -1,0 +1,29 @@
+/* Update to import style .css file from github instead of inline? */
+.audioPlayer {
+  display: block;
+  border-radius: 20px;
+  margin: 0 0;
+}
+.audioPlayer-label {
+  display: block;
+  margin: 0 0;
+  font-size: 20px;
+}
+.playListItem:before {
+  content: "\f04b  ";
+  font: 0.85em "FontAwesome";
+}
+.playListItem .selected:before {
+  content: "\f04c  ";
+  font: 0.85em "FontAwesome";
+}
+.playListItem {
+  padding: 10 10;
+}
+.playListItem:hover {
+  background-color: azure;
+}
+#playlist {
+  list-style: none;
+  margin: auto;
+}
